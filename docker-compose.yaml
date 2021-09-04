@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  ms-sql-server:
+    image: "mcr.microsoft.com/mssql/server"
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "myAppPassw0rd"
+      MSSQL_PID: Express
+    ports: 
+      - "1433"
+  ecommerce:
+    build: .
+    environment:
+      DBServer: "ms-sql-server"
+    ports:
+      - "5001"
