@@ -52,8 +52,9 @@ For the SQL server container the following were specified
 - the ‘sa’ user database password
 - the’1433’ port
 For the application the following were specified
-- build -  to build the app from the current directory
+- build - to build the app from the current directory
 - ports on which the app will run
+
 The Ecommerce web API can be called at the following paths:
 - GET localhost:8080/api/products - to list all the products
 - GET localhost:8080/api/products/{id} - to get a specific product by its {id}, where {id} = number
@@ -85,10 +86,10 @@ I have faced the following issues:
 - while installing some packages, some latest versions of packages were incompatible with other packages so tried different versions to see which ones are compatible
 
 Learning Materials used:
-Moodle B8IT147 Advanced Web Technologies learning materials
-.Microsoft .NET documentation
-Stackoverflow
-Youtube https://www.youtube.com/watch?v=fmvcAzHpsk8
+- Moodle B8IT147 Advanced Web Technologies learning materials
+- .Microsoft .NET documentation
+- Stackoverflow
+- Youtube https://www.youtube.com/watch?v=fmvcAzHpsk8
 
 
 
